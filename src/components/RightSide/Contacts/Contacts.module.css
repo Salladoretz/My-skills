@@ -1,0 +1,10 @@
+.contacts {
+    text-align: center;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 2rem;
+    gap: 1rem;
+    font-size: 0.9rem;
+}

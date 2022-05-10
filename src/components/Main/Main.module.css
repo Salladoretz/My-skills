@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main>div>h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.main>div>p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    color: green;
+}
+
+@media screen and (max-width: 1200px){
+    .main{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        align-items: center;
+    }
+}

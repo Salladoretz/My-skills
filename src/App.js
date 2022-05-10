@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Sidebar from './components/Sidebar/Sidebar.jsx'
+import Main from './components/Main/Main.jsx'
+import MainTS from './components/Main/MainTS.tsx'
+import More from './components/Main/More.jsx'
+import Rightside from './components/RightSide/RightSide.jsx'
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='AppGlass'>
+        <Sidebar />
+        <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='typescript' element={<MainTS />} />
+          <Route path='more' element={<More />} />
+        </Routes>
+        <Rightside />
+      </div>
     </div>
   );
 }

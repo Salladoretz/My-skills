@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+    gap: 2rem;
+}
+
+.skillCard {
+    font-size: 24px;
+    width: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    border: 1px solid rgb(175, 175, 7);
+    background: #f7e821;
+    padding: 1rem;
+    box-shadow: 0px 5px 5px 0px #808010;
+}
+
+.underSkill{
+    text-align: center;
+}
