@@ -1,16 +1,18 @@
-import React, { useState } from "react"
+import React, { useState } from 'react'
 import LogoTop from '../../imgs/logoReact.png'
 import Lee from '../../imgs/Lee.png'
 import css from './Sidebar.module.css'
-import { SidebarData } from "../../data/Data"
 import { UilBars, UilSignOutAlt } from '@iconscout/react-unicons'
-import { motion } from "framer-motion"
-import { Link } from "react-router-dom"
+import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 
 const Sidebar = () => {
 
     const [selected, setSelected] = useState(0)
     const [expanded, setExpanded] = useState(true)
+
+    const sidebarItems = useSelector(state => state.sidebarReducer)
 
     const sidebarVariants = {
         true: {
@@ -36,10 +38,10 @@ const Sidebar = () => {
                 animate={window.innerWidth <= 768 ? `${expanded}` : ''}
             >
                 <div className={css.logoTop}>
-                    <img src={LogoTop} alt="" />
+                    <img src={LogoTop} alt='' />
                 </div>
                 <div className={css.menu}>
-                    {SidebarData.map((item, index) => {
+                    {sidebarItems.map((item, index) => {
                         return (
                             <div className={index === selected
                                 ? css.menuItem + ' ' + css.active
@@ -59,7 +61,7 @@ const Sidebar = () => {
                         )
                     })}
                     <div className={css.logoBottom}>
-                        <img src={Lee} alt="" />
+                        <img src={Lee} alt='' />
                     </div>
                     <div className={css.menuItem}>
                         <UilSignOutAlt />

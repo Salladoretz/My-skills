@@ -1,8 +1,8 @@
-import React from "react"
-import { useState } from "react"
+import React from 'react'
+import { useState } from 'react'
 import css from './Skills.module.css'
-import { useSelector, useDispatch } from "react-redux"
-import { SET_SKILL_LIST } from "../../../../store/skillsReducer"
+import { useSelector, useDispatch } from 'react-redux'
+import { SET_SKILL_LIST } from '../../../../store/skillsReducer'
 
 
 const Skills = () => {

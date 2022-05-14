@@ -9,7 +9,8 @@ const initialState = {
         { id: 2, order: 2, skillName: 'HTML' },
         { id: 3, order: 3, skillName: 'CSS' },
         { id: 4, order: 4, skillName: 'React' },
-        { id: 5, order: 5, skillName: 'Redux' }
+        { id: 5, order: 5, skillName: 'Redux' },
+        { id: 6, order: 6, skillName: 'TypeScript' }
     ],
     currentSkill: {},
     dropSkill: {},

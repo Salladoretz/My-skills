@@ -1,12 +1,16 @@
-import React from "react"
-import { CardsData } from "../../../data/Data"
+import React from 'react'
 import css from './Cards.module.css'
-import Card from "./Card"
+import Card from './Card'
+import { useSelector } from 'react-redux'
 
 const Cards = () => {
+
+    const cards = useSelector(state => state.cardsReducer.cards)
+    const chartOptions = useSelector(state => state.cardsReducer.chartOptions)
+
     return (
         <div className={css.cards}>
-            {CardsData.map((card, id) => {
+            {cards.map((card, id) => {
                 return (
                     <div className={css.parentContainer}>
                         <Card
@@ -16,6 +20,7 @@ const Cards = () => {
                             value={card.value}
                             png={card.png}
                             series={card.series}
+                            chartOptions={chartOptions}
                         />
                     </div>
                 )

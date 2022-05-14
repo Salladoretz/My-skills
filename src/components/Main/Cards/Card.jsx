@@ -1,8 +1,7 @@
-import React, { useState } from "react"
-import { AnimateSharedLayout, motion } from "framer-motion"
+import React, { useState } from 'react'
+import { AnimateSharedLayout, motion } from 'framer-motion'
 import { CircularProgressbar } from 'react-circular-progressbar'
 import { UilTimes } from '@iconscout/react-unicons'
-import { ChartOptions } from "../../../data/Data"
 import Chart from 'react-apexcharts'
 import 'react-circular-progressbar/dist/styles.css'
 import css from './Card.module.css'
@@ -75,7 +74,7 @@ function ExpandedCard({ param, setExpanded }) {
                 <Chart
                     series={param.series}
                     type='area'
-                    options={ChartOptions.options}
+                    options={param.chartOptions}
                 />
             </div>
             <span>Последние 24 часа</span>

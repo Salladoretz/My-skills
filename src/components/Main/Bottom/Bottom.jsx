@@ -8,7 +8,7 @@ export default function Bottom() {
     return (
         <div className={css.bottom}>
             <div className={css.aboutMe}>
-                <img src={Me} alt="" />
+                <img src={Me} alt='' />
                 <p>Привет!</p>
                 <p>Меня зовут Филипп Ли.</p>
                 <p>Мне 45 лет.</p>
