@@ -21,7 +21,6 @@ const ReactHookForm: React.FC = () => {
     return (
         <div className={css.reactHookForm}>
             <h1>Form</h1>
-            <div className={css.typescripted}>TypeScripted</div>
             <span>(библиотека React Hook Form)</span>
             <div>
                 <form className={css.reactHookForm__form} onSubmit={handleSubmit(onSubmit)} >

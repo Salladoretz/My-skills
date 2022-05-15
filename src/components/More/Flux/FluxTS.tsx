@@ -15,7 +15,6 @@ const Flux: React.FC = () => {
     return (
         <div className={css.flux}>
             <h1>FLUX</h1>
-            <div className={css.typescripted}>TypeScripted</div>
             <input
                 type='text'
                 onChange={onChange}

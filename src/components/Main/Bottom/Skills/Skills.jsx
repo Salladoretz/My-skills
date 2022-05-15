@@ -58,6 +58,7 @@ const Skills = () => {
                 <div className={css.wrapper}>
                     {skillList.sort(sortSkill).map(item =>
                         <div
+                            key={item.id}
                             onDragStart={(e) => dragStartHandler(e, item)}
                             onDragLeave={(e) => dragEndHandler(e)}
                             onDragEnd={(e) => dragEndHandler(e)}

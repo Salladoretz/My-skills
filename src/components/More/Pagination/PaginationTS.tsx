@@ -45,7 +45,6 @@ const PaginationTS: React.FC = () => {
     return (
         <div className={css.pagination}>
             <h1>PAGINATION</h1>
-            <div className={css.typescripted}>TypeScripted</div>
             <main className={css.main}>
                 <div className={css.label}>Количество овалов на странице (max: 15)</div>
                 <div className={css.controls}>
@@ -69,7 +68,12 @@ const PaginationTS: React.FC = () => {
 
                 <div className={css.wrapper}>
                     {currentItems.map(i =>
-                        <div className={css.item}>{i.item}</div>
+                        <div
+                            key={i.id}
+                            className={css.item}
+                        >
+                            {i.item}
+                        </div>
                     )}
                 </div>
                 <PG

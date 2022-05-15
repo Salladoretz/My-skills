@@ -8,9 +8,11 @@ const Messages = () => {
 
     return (
         <div className={css.messages}>
-            {messages.map((message) => {
+            {messages.map(message => {
                 return (
-                    <div className={css.item}>
+                    <div
+                        key={message.id}
+                        className={css.item}>
                         <img src={message.img} alt='' />
                         <div className={css.message}>
                             <div className={css.messageBlock}>

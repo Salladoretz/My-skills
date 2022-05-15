@@ -22,6 +22,7 @@
     .AppGlass{
       grid-template-columns: 10% 60% auto;
       overflow-y: scroll;
+      margin-bottom: 1rem;
     }
   }
   

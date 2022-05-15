@@ -1,6 +1,6 @@
 import {
     UilEstate,
-    UilChannelAdd,
+    UilText
 } from '@iconscout/react-unicons'
 
 const initialState = [
@@ -10,8 +10,8 @@ const initialState = [
         link: '/'
     },
     {
-        icon: UilChannelAdd,
-        heading: 'More stuff',
+        icon: UilText,
+        heading: 'TypeScript',
         link: 'more'
     }
 ]

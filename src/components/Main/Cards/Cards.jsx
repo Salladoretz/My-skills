@@ -10,10 +10,12 @@ const Cards = () => {
 
     return (
         <div className={css.cards}>
-            {cards.map((card, id) => {
+            {cards.map(card => {
                 return (
-                    <div className={css.parentContainer}>
+                    <div key={card.id}
+                        className={css.parentContainer}>
                         <Card
+                            key={card.id}
                             title={card.title}
                             color={card.color}
                             barValue={card.barValue}

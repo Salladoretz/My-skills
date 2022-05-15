@@ -7,6 +7,7 @@ import {
 const initialState = {
     cards: [
         {
+            id: 1,
             title: 'Работа',
             color: {
                 background: 'linear-gradient(180deg, #FFD700 0%, #F4BB44 100%)',
@@ -21,6 +22,7 @@ const initialState = {
             }]
         },
         {
+            id: 2,
             title: 'Доход',
             color: {
                 background: 'linear-gradient(180deg, #6359f0 0%, #2c42b9 100%)',
@@ -35,6 +37,7 @@ const initialState = {
             }]
         },
         {
+            id: 3,
             title: 'Удовлетворение',
             color: {
                 background: 'linear-gradient(180deg, #59f059 0%, #0aa82c 100%)',

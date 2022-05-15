@@ -65,7 +65,6 @@ const API_TS: React.FC = () => {
     return (
         <div className={css.api}>
             <h1>API</h1>
-            <div className={css.typescripted}>TypeScripted</div>
             <span>www.openweathermap.org</span>
             <main>
                 <div >
