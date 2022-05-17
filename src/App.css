@@ -20,7 +20,7 @@
   
   @media screen and (max-width: 1200px){
     .AppGlass{
-      grid-template-columns: 10% 60% auto;
+      grid-template-columns: 10% 40% auto;
       overflow-y: scroll;
       margin-bottom: 1rem;
     }

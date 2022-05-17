@@ -7,7 +7,7 @@ const initialState = [
     {
         icon: UilEstate,
         heading: 'Welcome',
-        link: '/'
+        link: 'my-react-skills'
     },
     {
         icon: UilText,

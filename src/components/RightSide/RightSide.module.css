@@ -8,7 +8,7 @@
 @media screen and (max-width: 1200px) {
     .rightSide{
         justify-content: flex-start;
-        margin-top: 3rem;
+        margin: 3rem 1rem 0 0;
     }
 }
 

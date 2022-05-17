@@ -12,7 +12,7 @@ function App() {
       <div className='AppGlass'>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<Main />} />
+          <Route path='my-react-skills' element={<Main />} />
           <Route path='more' element={<More />} />
         </Routes>
         <Rightside />
