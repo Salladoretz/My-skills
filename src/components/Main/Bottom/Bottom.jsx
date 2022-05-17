@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Me from '../../../imgs/Me.jpg'
 import css from './Bottom.module.css'
 import Skills from './Skills/Skills';

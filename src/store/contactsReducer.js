@@ -1,17 +1,12 @@
 import {
-    UilWhatsapp,
-    UilTelegram,
+    UilTelegramAlt,
     UilEnvelope,
-    UilGithub
+    UilGithubAlt
 } from '@iconscout/react-unicons'
 
 const initialState = [
     {
-        icon: UilWhatsapp,
-        data: '+7 962 586 7508'
-    },
-    {
-        icon: UilTelegram,
+        icon: UilTelegramAlt,
         data: '@Salladoretz'
     },
     {
@@ -19,7 +14,7 @@ const initialState = [
         data: 'salladoretz@yandex.ru'
     },
     {
-        icon: UilGithub,
+        icon: UilGithubAlt,
         data: 'https://github.com/Salladoretz'
     }
 ]

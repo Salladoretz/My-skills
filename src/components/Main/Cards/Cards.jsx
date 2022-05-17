@@ -15,7 +15,6 @@ const Cards = () => {
                     <div key={card.id}
                         className={css.parentContainer}>
                         <Card
-                            key={card.id}
                             title={card.title}
                             color={card.color}
                             barValue={card.barValue}
