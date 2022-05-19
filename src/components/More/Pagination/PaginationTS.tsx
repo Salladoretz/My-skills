@@ -1,5 +1,5 @@
 import React from 'react'
-import css from './pagination.module.css'
+import css from './Pagination.module.css'
 import { useDispatchTS, useSelectorTS } from '../../../store/hooks.ts'
 import { Pagination as PG } from '@mui/material'
 

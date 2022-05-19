@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import css from './flux.module.css'
+import css from './Flux.module.css'
 import { useDispatchTS, useSelectorTS } from '../../../store/hooks.ts'
 
 
