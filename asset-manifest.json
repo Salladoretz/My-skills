@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-react-skills/static/css/main.2b36597d.css",
-    "main.js": "/my-react-skills/static/js/main.1b09a38f.js",
+    "main.css": "/my-react-skills/static/css/main.7334e238.css",
+    "main.js": "/my-react-skills/static/js/main.c016f51d.js",
     "static/media/Me.jpg": "/my-react-skills/static/media/Me.eb4d39260c5eb551ad90.jpg",
     "static/media/img1.png": "/my-react-skills/static/media/img1.a0fca9c51749c1ee3db5.png",
     "static/media/img2.png": "/my-react-skills/static/media/img2.f5f922c9b93eaf2c4065.png",
     "static/media/img3.png": "/my-react-skills/static/media/img3.6b1484548ee065fd59b5.png",
     "static/media/Lee.png": "/my-react-skills/static/media/Lee.f0d5980f4b25bf1e88c6.png",
     "index.html": "/my-react-skills/index.html",
-    "main.2b36597d.css.map": "/my-react-skills/static/css/main.2b36597d.css.map",
-    "main.1b09a38f.js.map": "/my-react-skills/static/js/main.1b09a38f.js.map"
+    "main.7334e238.css.map": "/my-react-skills/static/css/main.7334e238.css.map",
+    "main.c016f51d.js.map": "/my-react-skills/static/js/main.c016f51d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b36597d.css",
-    "static/js/main.1b09a38f.js"
+    "static/css/main.7334e238.css",
+    "static/js/main.c016f51d.js"
   ]
 }
